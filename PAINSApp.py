@@ -139,7 +139,7 @@ class App:
                     for _, row in matches_df.iterrows()
                 ],
                 molsPerRow=4,
-                subImgSize=(400, 400),
+                subImgSize=(200, 200),
             )
 
             img_tk = ImageTk.PhotoImage(image=img)
